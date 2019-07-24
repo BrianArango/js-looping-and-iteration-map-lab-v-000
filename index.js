@@ -2,8 +2,7 @@ function map(array, callback) {
   const newArr = [];
   
   for (const element of array) {
-    newArr.push(callback(element));
-  }
+    newArr.push(callback(element));}
 }
 
 function lowerCaseDrivers(array) {
@@ -21,9 +20,7 @@ function attributesToPhrase(array) {
   return array.map(function(element) {
     const name = element.name;
       const hometown = element.hometown;
-        return element.name + " is from " + element.hometown;
-    }
-  );
+        return element.name + " is from " + element.hometown;});
 }
 
 
